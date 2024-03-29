@@ -19,7 +19,6 @@ html {
     box-sizing: border-box;
 }
 
-body {}
 
 header {
     position: relative;
@@ -76,7 +75,7 @@ main {
 
 main>section#sobre {
     background-color: gray;
-    width: 390px;
+    width: 320px;
     margin: auto;
     padding: 20px;
 
