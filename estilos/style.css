@@ -67,7 +67,7 @@ nav>a {
 
 main {
     position: relative;
-    height: 375px;
+    height: 380px;
     width: 100%;
     background-color: rgb(81, 14, 14);
 }
@@ -86,4 +86,11 @@ main#sobre>h1 {
 
 main>section#sobre>p {
     text-align: justify;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
