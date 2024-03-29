@@ -68,15 +68,22 @@ nav>a {
 main {
     position: relative;
     height: 100%;
-    width: 100%;
+    width: 85%;
     background-color: rgb(81, 14, 14);
+    margin: auto;
 }
 
 main>section#sobre {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
     background-color: gray;
     width: 280px;
     margin: auto;
     padding: 20px;
+    border-radius: 15px;
 
 }
 
