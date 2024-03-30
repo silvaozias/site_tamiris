@@ -131,11 +131,14 @@ main>section#sobre>p {
 }
 
 footer{
+    position: relative;
+    bottom: 0px;
+
     background-color: black;
     color: white;
     text-align: center;
     padding: 14.5px;
-    position: absolute;
-    margin: auto;
+    
+ 
     width: 100%;
 }
