@@ -112,7 +112,7 @@ main>section#sobre {
     background-color: #7363725a;
     color: white;
     width: 70%;
-    height: 200px;
+    height: 70%;
     margin: auto;
     padding: 20px;
     border-radius: 15px;
@@ -124,8 +124,9 @@ main#sobre>h1 {
 }
 
 main>section#sobre>p {
-    font-size: 0.7em;
+    font-size: 1.8vh;
     text-align: justify;
+
 }
 
 footer{
