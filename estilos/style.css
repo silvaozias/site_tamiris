@@ -25,8 +25,7 @@
 body,
 html {
     width: 100vw;
-    height: 100vh;
-    box-sizing: border-box;
+    height: 100vh; 
 }
 
 body{
@@ -34,7 +33,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top; 
-    background-attachment: scroll;
+    background-attachment: fixed;
   
 }
 
@@ -43,7 +42,7 @@ header {
     position: relative;
     background-color: #17a39755;
     height: 280px;
-    width: 100%;
+    width: 100vw;
 
 }
 
@@ -99,10 +98,12 @@ nav > ul > li > a{
 
 main {
     position: relative;
-    width: 85%;
-    display: block;
+    width: 85vw;
+    height: 100%;
+
     background-color: #ffc75757;
     margin: auto;
+    overflow-x: hidden;
     
 }
 
