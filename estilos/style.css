@@ -27,18 +27,26 @@ body,
 html {
     width: 100vw;
     height: 100vh;
-    margin: 0px !important;
-    padding: 0px !important;
+    margin: 0 !important;
+    padding: 0 !important;
 }
 
-main#fundo {
-    background: blue url('../imagens/fundo_smart.jpg');
-    background-size:cover;
-    background-repeat: no-repeat;
-    background-position: center top;
+body{
+    position: relative;
+    right: 0px;
+    left: 0px;
+
+    height: 100vh;
+    width: 100vw;
+    background: url('../imagens/fundo_smart.jpg');
+    background-size: cover;
     background-attachment: fixed;
-    overflow-x: hidden;
+    margin: auto;
+    overflow-x:hidden;
+    
 }
+
+
 
 body#atendimento {
     background: url('../imagens/atendimento.jpg');
@@ -122,16 +130,12 @@ nav>ul>li>a {
     font-size: .7em;
 }
 
-main {
+main {   
     position: relative;
-    left: 7.5%;
-
-    width: 85vw;
-    height: 112%;
+    width: 85%;
+    height: 768px;
     background-color: #ffc75757;
-    margin-right: auto;
-
-
+    margin: auto;
 }
 
 main>section#sobre {
@@ -141,8 +145,7 @@ main>section#sobre {
     transform: translate(-50%, -50%);
 
     display: block;
-    background-color: #7363725a;
-    color: white;
+    background-color: #7363725a;    color:white;
     width: 65%;
 
     margin: auto;
