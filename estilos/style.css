@@ -32,7 +32,7 @@ html {
 }
 
 body {
-    background: url('../imagens/fundo_smart.jpg');
+    background: blue url('../imagens/fundo_smart.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
