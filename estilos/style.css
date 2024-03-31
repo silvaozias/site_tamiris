@@ -80,10 +80,12 @@ header>p {
 nav {
     position: absolute;
     right: 2%;
-    bottom: 80%;
-    padding: 15px;
+    top: 0px;
+
     text-align: right;
     width: 100vw;
+    height: 65px;
+    background-color: #003844;
 
 }
 
@@ -92,14 +94,15 @@ nav > ul > li {
     color: white;
     text-decoration: none;
     margin-right: 15px;
-    padding: 5px;
+    padding-top: 20px;
+   
    
 }
 
 nav > ul > li > a{
     text-decoration: none;
     color: white;
-    font-size: 1em;
+    font-size: .7em;
 }
 
 main {
