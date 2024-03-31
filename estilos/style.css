@@ -35,7 +35,7 @@ body {
     background: url('../imagens/fundo_smart.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: top;
+    background-position: bottom;
     background-attachment: fixed;
     overflow-x: hidden;
 }
