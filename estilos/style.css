@@ -31,7 +31,7 @@ html {
     padding: 0px !important;
 }
 
-body {
+main#fundo {
     background: blue url('../imagens/fundo_smart.jpg');
     background-size:cover;
     background-repeat: no-repeat;
