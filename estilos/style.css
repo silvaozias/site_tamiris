@@ -133,7 +133,7 @@ nav>ul>li>a {
 main {   
     position: relative;
     width: 85%;
-    height: 768px;
+    height: 100vh;
     background-color: #ffc75757;
     margin: auto;
 }
