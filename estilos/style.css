@@ -68,6 +68,16 @@ body#depoimentos {
     overflow-x: hidden;
 }
 
+body#contato {
+    background: url('../imagens/IMG_0228.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+
+
 header {
     position: relative;
     background-color: #17a39755;
@@ -247,17 +257,26 @@ section#depoimentos3{
     margin-left: 8%;
 }
 
+section#contato{
+    background-color: #003844;
 
+}
 
-div#whattsap1{
+section#contato div#instagram{
+    background: url('../imagens/instagram.png');
+    width: 100px;
+    height: 100px;
+}
+
+div#whattsap{
     width: 58px;
     height: 58px;
     background: url('../imagens/whattsap.png');
     background-size: contain;
-    display: block;
+    display: inline-block;
     position:fixed;
     left: 2%;
-    bottom: 8%;
+    bottom: 4%;
     z-index: 1;
     border-radius: 50%;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.484);
