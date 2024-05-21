@@ -32,7 +32,7 @@ html {
     padding: 0 !important;
 }
 
-body{
+body {
     position: relative;
     right: 0px;
     left: 0px;
@@ -44,8 +44,8 @@ body{
     background-attachment: fixed;
     background-repeat: no-repeat;
     margin: auto;
-    overflow-x:hidden;
-    
+    overflow-x: hidden;
+
 }
 
 
@@ -113,7 +113,7 @@ header>p {
 
 }
 
-header#atendimentos > h1{
+header#atendimentos>h1 {
     position: absolute;
     top: 80%;
 
@@ -130,7 +130,7 @@ header>h1#h1_depoimentos {
 }
 
 nav {
-    position:absolute;
+    position: absolute;
     top: 0px;
 
     text-align: right;
@@ -139,23 +139,42 @@ nav {
 
 }
 
-nav>ul>li {
-    display: inline-block;
-    color: white;
+nav>menu>ul>li {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
     text-decoration: none;
-    margin-right: 15px;
-    padding-top: 20px;
-
-
+    text-align: center;
+    background-color: #EFA2AF;
+    margin-bottom: 3px;
 }
 
-nav>ul>li>a {
-    text-decoration: none;
-    color: white;
-    font-size: .7em;
+nav>menu>ul>li:hover {
+    background-color: #efa2afd7;
 }
 
-main {   
+nav>menu>ul>li>a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.9em;
+}
+
+menu {
+    display: none;
+}
+
+span#burguer {
+    display: block;
+    text-align: center;
+    font-size: 2em;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    margin-bottom: 2px;
+    background-color: #EFA2AF;
+}
+
+main {
     position: relative;
     width: 85%;
     height: 100vh;
@@ -170,7 +189,8 @@ main>section#sobre {
     transform: translate(-50%, -50%);
 
     display: block;
-    background-color: #7363725a;    color:white;
+    background-color: #7363725a;
+    color: white;
     width: 85%;
 
     margin: auto;
@@ -181,7 +201,7 @@ main>section#sobre {
 
 }
 
-main > section#sobre h1 {
+main>section#sobre h1 {
     font-size: 1.4em;
     color: white;
     text-align: center;
@@ -193,32 +213,32 @@ main>section#sobre>p {
 
 }
 
-section.atendimentos{
+section.atendimentos {
     display: inline-block;
     margin-top: 7%;
-    margin-left:8%;
-    
+    margin-left: 8%;
+
     background-color: rgba(255, 255, 255, 0.511);
     color: var(--cor1);
     border-radius: 15px;
     padding: 10px;
     width: 85%;
-    
-    
-}
-
-section.atendimentos h1{
-    font-size:1.3em;
-
-}
-
-section.atendimentos > ul{
-    list-style-position:inside;
 
 
 }
 
-section#depoimentos1{
+section.atendimentos h1 {
+    font-size: 1.3em;
+
+}
+
+section.atendimentos>ul {
+    list-style-position: inside;
+
+
+}
+
+section#depoimentos1 {
     display: inline-block;
     background: white url('../imagens/comentario1.jpg');
     border-radius: 20px;
@@ -231,7 +251,7 @@ section#depoimentos1{
     margin-left: 8%;
 }
 
-section#depoimentos2{
+section#depoimentos2 {
     display: inline-block;
     background: white url('../imagens/comentario2.jpg');
     border-radius: 20px;
@@ -244,7 +264,7 @@ section#depoimentos2{
     margin-left: 8%;
 }
 
-section#depoimentos3{
+section#depoimentos3 {
     display: inline-block;
     background: white url('../imagens/comentario3.jpg');
     border-radius: 20px;
@@ -257,24 +277,24 @@ section#depoimentos3{
     margin-left: 8%;
 }
 
-section#contato{
+section#contato {
     background-color: #003844;
 
 }
 
-section#contato div#instagram{
+section#contato div#instagram {
     background: url('../imagens/instagram.png');
     width: 100px;
     height: 100px;
 }
 
-div#whattsap{
+div#whattsap {
     width: 58px;
     height: 58px;
     background: url('../imagens/whattsap.png');
     background-size: contain;
     display: inline-block;
-    position:fixed;
+    position: fixed;
     left: 2%;
     bottom: 4%;
     z-index: 1;
