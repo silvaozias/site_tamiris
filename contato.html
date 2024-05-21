@@ -1,47 +1,60 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
+    <script src="javascript/javascript.js"></script>
 </head>
+
 <body id="contato">
-    <header id="depoimentos" >
+    <header id="depoimentos">
         <h1 id="h1_depoimentos">Contato</h1>
-        
+
         <nav>
-            <ul>
-                <li><a href="index.html" target="self">Sobre</a></li>
-                <li><a href="atendimentos.html" target="self">Atendimentos</a></li>
-                <li><a href="depoimentos.html" target self rel="prev">Depoimentos</a></li>
-                <li><a href="contato.html" target="self">Contato</a></li>
-            </ul>
+            <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">
+                menu
+            </span>
+            <menu id="itens">
+
+                <ul>
+                    <li><a href="index.html" target="_self">Sobre</a></li>
+                    <li><a href="atendimentos.html" target="_self" rel="next">Atendimentos</a></li>
+                    <li><a href="depoimentos.html" target="self">Depoimentos</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </menu>
         </nav>
     </header>
     <main>
-    <section id="contato">
-        <h2>Fale diretamente comigo</h2>
-        <p>Saiba um pouco mais sobre meu trabalho ou tire suas dúvidas comigo através das redes sociais.</p>
-    
-        <div id="whattsap">
+        <section id="contato">
+            <h2>Fale diretamente comigo</h2>
+            <p>Saiba um pouco mais sobre meu trabalho ou tire suas dúvidas comigo através das redes sociais.</p>
 
-        </div>
-        <div id="instagram">
+            <div id="whattsap">
 
-        </div>
-        <div id="facebook">
+            </div>
+            <div id="instagram">
 
-        </div>
-        <div id="linkedin">
+            </div>
+            <div id="facebook">
 
-        </div>
-        <div id="email">
+            </div>
+            <div id="linkedin">
 
-        </div>
-    </section>
-        
+            </div>
+            <div id="email">
+
+            </div>
+        </section>
+
     </main>
     <footer>Todos os direitos reservados</footer>
 </body>
+
 </html>

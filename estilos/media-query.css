@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+
+    body {
+        background: none;
+    }
+
+    div#foto {
+        background-image: url('../imagens/fundo_smart.jpg');
+        background-size: 50vw;
+        background-position: top center;
+        background-attachment: scroll;
+        background-repeat: no-repeat;
+
+    }
+
+
+
+
+    main {
+        width: 80vw;
+
+    }
+
+    main>section#sobre {
+        position: fixed;
+        width: 60vw;
+        top: 70%;
+
+    }
+
+    header>h1 {
+        position: relative;
+        font-size: 3.5em;
+        text-align: left;
+        top: 65px;
+        margin-left: 15px;
+    }
+
+    header>p {
+        position: relative;
+        text-align: center;
+    }
+
+
+    span#burguer {
+        display: none;
+    }
+
+    menu {
+        display: block;
+    }
+
+    nav>menu>ul>li {
+        display: inline-block;
+
+    }
+
+
+
+}
