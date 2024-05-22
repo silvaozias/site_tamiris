@@ -2,11 +2,14 @@
 
 @media screen and (min-width: 768px) {
 
-    body {
+    body,
+    body#contato,
+    body#atendimento,
+    body#depoimentos {
         background: none;
     }
 
-    div#foto {
+    main#foto_sobre {
         background-image: url('../imagens/fundo_smart.jpg');
         background-size: 50vw;
         background-position: top center;
@@ -14,6 +17,38 @@
         background-repeat: no-repeat;
 
     }
+
+
+    main#foto_atendimento {
+        background-image: url('../imagens/atendimentos.jpg');
+        background-size: 50vw;
+        background-position: top center;
+        background-attachment: scroll;
+        background-repeat: no-repeat;
+
+    }
+
+
+    main#foto_depoimentos {
+        background-image: url('../imagens/depoimentos.jpg');
+        background-size: 50vw;
+        background-position: top center;
+        background-attachment: scroll;
+        background-repeat: no-repeat;
+
+    }
+
+
+
+    main#foto_contato {
+        background-image: url('../imagens/depoimentos.jpg');
+        background-size: 50vw;
+        background-position: top center;
+        background-attachment: scroll;
+        background-repeat: no-repeat;
+
+    }
+
 
 
 
@@ -30,11 +65,15 @@
 
     }
 
+    header {
+        height: 75px;
+    }
+
     header>h1 {
         position: relative;
         font-size: 3.5em;
         text-align: left;
-        top: 65px;
+        top: 35px;
         margin-left: 15px;
     }
 
@@ -48,15 +87,84 @@
         display: none;
     }
 
+
     menu {
         display: block;
+
     }
 
     nav>menu>ul>li {
         display: inline-block;
+        margin-right: -4px;
+        padding-top: 25.5px;
+        padding-bottom: 25.5px;
+        padding-left: 20px;
+        padding-right: 20px;
+
+    }
+
+    nav>menu {
+        margin-right: 20px;
+    }
+
+    main>section#depoimentos {
+        display: flex;
+        width: 95%;
+        height: 60vh;
+        justify-content: center;
+        align-items: center;
+
+        position: relative;
+        top: 200px;
+
+
+
+        background-color: rgba(255, 0, 102, 0.226);
+
+
+
+
+    }
+
+    section#depoimentos>section#depoimentos1 {
+
+        width: 35%;
+        height: 50%;
+        margin: 25px;
+
+
+
+    }
+
+    section#depoimentos>section#depoimentos2 {
+
+
+        width: 35%;
+        height: 50%;
+        margin: 15px;
+
+    }
+
+    section#depoimentos>section#depoimentos3 {
+
+        width: 35%;
+        height: 50%;
+        margin: 15px;
 
     }
 
 
+    div#whattsap {
+        width: 58px;
+        height: 58px;
 
+        position: fixed;
+        left: 94%;
+        bottom: 10%;
+
+    }
+
+    footer {
+        width: 100vw;
+    }
 }
