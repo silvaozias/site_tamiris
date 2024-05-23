@@ -18,6 +18,13 @@
 
     }
 
+    main>section#sobre p{
+        background-color: aquamarine;
+        color: black;
+        font-size: 5em;
+    
+    }
+
 
     main#foto_atendimento {
         background-image: url('../imagens/atendimentos.jpg');
@@ -109,47 +116,42 @@
 
     main>section#depoimentos {
         display: flex;
-        width: 95%;
-        height: 60vh;
         justify-content: center;
         align-items: center;
-
-        position: relative;
-        top: 200px;
-
-
-
-        background-color: rgba(255, 0, 102, 0.226);
+        
+        position:fixed;
+        right: 6.6%;
+        top: 45vh;
 
 
+        width: 85%;
+        height: 50vh;
 
 
+
+        
     }
 
-    section#depoimentos>section#depoimentos1 {
+    section#depoimentos section#depoimentos1 {
 
-        width: 35%;
-        height: 50%;
-        margin: 25px;
-
-
-
+        width: 23vw;
+        height: 30vh;
+        margin: 10px;
     }
 
-    section#depoimentos>section#depoimentos2 {
+    section#depoimentos section#depoimentos2 {
 
 
-        width: 35%;
-        height: 50%;
-        margin: 15px;
-
+        width: 23vw;
+        height: 30vh;
+        margin: 10px;
     }
 
-    section#depoimentos>section#depoimentos3 {
+    section#depoimentos section#depoimentos3 {
 
-        width: 35%;
-        height: 50%;
-        margin: 15px;
+        width: 23vw;
+        height: 30vh;
+        margin: 10px;
 
     }
 
