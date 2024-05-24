@@ -214,6 +214,10 @@ main>section#sobre>p {
 
 }
 
+main#foto_atendimentos{
+
+}
+
 section.atendimentos {
     display: inline-block;
     margin-top: 7%;
@@ -223,7 +227,7 @@ section.atendimentos {
     color: var(--cor1);
     border-radius: 15px;
     padding: 10px;
-    width: 85%;
+    width: 61vw;
 
 
 }
@@ -286,15 +290,35 @@ section#depoimentos section#depoimentos3 {
     margin-left: 8%;
 }
 
-section#contato {
+main>section#contato>div#instagram {
+
+    justify-content: center;
+    align-items: center;
     background-color: #003844;
+    width: 80vw;
+    height: 80vh;
 
 }
 
-section#contato div#instagram {
-    background: url('../imagens/instagram.png');
-    width: 100px;
+main>section#contato div#instagram {
+    background-color: #0bb8aa;
+    width: 200px;
+    height: 100px;  
+    margin-top: 5px; 
+}
+
+main>section#contato div#facebook {
+    background-color: #0bb8aa;
+    width: 200px;
     height: 100px;
+    margin-top: 5px;   
+}
+
+main>section#contato div#linkedin {
+    background-color: #0bb8aa;
+    width: 200px;
+    height: 100px;
+    margin-top: 5px;   
 }
 
 div#whattsap {
