@@ -290,35 +290,55 @@ section#depoimentos section#depoimentos3 {
     margin-left: 8%;
 }
 
-main>section#contato>div#instagram {
 
-    justify-content: center;
+
+main>section#contato{
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    background-color: #003844;
-    width: 80vw;
-    height: 80vh;
-
+    justify-content: center;
+    min-height: 70vh;
+    
 }
 
 main>section#contato div#instagram {
-    background-color: #0bb8aa;
-    width: 200px;
+    background-image: url('../imagens/instagram.png');
+    background-size: contain;
+   
+    width: 100px;
     height: 100px;  
-    margin-top: 5px; 
+    margin-top: 10px;
+    
 }
 
 main>section#contato div#facebook {
-    background-color: #0bb8aa;
-    width: 200px;
+    background-image: url('../imagens/facebook.png');
+   
+    background-size: contain;
+    width: 100px;
     height: 100px;
-    margin-top: 5px;   
+    margin-top: 10px;
+    
 }
 
 main>section#contato div#linkedin {
-    background-color: #0bb8aa;
-    width: 200px;
+    background-image: url('../imagens/linkedin.png');
+    
+    background-size: contain;
+    width: 100px;
     height: 100px;
-    margin-top: 5px;   
+    margin-top: 10px;
+    
+}
+
+main>section#contato div#google {
+    background-image: url('../imagens/google-plus.png');
+   
+    background-size: contain;
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+   
 }
 
 div#whattsap {
