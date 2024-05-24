@@ -118,12 +118,12 @@ header>p {
 
 
 header>h1#h1_atendimentos {
-    font-family: var(--fonte-padrao);
+    font-family: var(--fonte-destaque);
 }
 
 
 header>h1#h1_depoimentos {
-    font-family: var(--fonte-padrao);
+    font-family: var(--fonte-destaque);
 }
 
 nav {
@@ -294,52 +294,72 @@ section#depoimentos section#depoimentos3 {
 
 main>section#contato{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    min-height: 70vh;
+    height: 160px;
+    width: 34%;
+    
+
+    position: fixed;
+    top: 55%;
+    left: 34%;
+    right: 33%;
+
+}
+
+body#contato main  h2{
+    display: block;
+    font-size: 2em;
+    text-align: center;
+    position:sticky;
+    top: 330px;
+    color: rgb(255, 255, 255);
+    margin:auto;
+    
+
+}
+
+main div.icone-social{
+
+    width: 65px;
+    height: 65px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
     
 }
 
 main>section#contato div#instagram {
     background-image: url('../imagens/instagram.png');
-    background-size: contain;
-   
-    width: 100px;
-    height: 100px;  
-    margin-top: 10px;
+    background-size: cover;
+ 
     
 }
 
 main>section#contato div#facebook {
     background-image: url('../imagens/facebook.png');
-   
-    background-size: contain;
-    width: 100px;
-    height: 100px;
-    margin-top: 10px;
+    background-size: cover;
+ 
     
 }
 
 main>section#contato div#linkedin {
     background-image: url('../imagens/linkedin.png');
     
-    background-size: contain;
-    width: 100px;
-    height: 100px;
-    margin-top: 10px;
+    background-size: cover;
+
     
 }
 
 main>section#contato div#google {
     background-image: url('../imagens/google-plus.png');
-   
-    background-size: contain;
-    width: 100px;
-    height: 100px;
-    margin-top: 10px;
+    background-size: cover;
+  
    
 }
+
 
 div#whattsap {
     width: 58px;

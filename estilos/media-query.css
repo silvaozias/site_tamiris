@@ -193,12 +193,24 @@
         flex-direction: row;
         align-items: center;
         justify-content:space-between;
-        min-height: 70vh;
+        height: 20vh;
 
         position: fixed;
-        margin-left: 10px;
-        background-color: brown;
+        left: 34%;
+        top: 360px;
+   
+    }
+
+    body#contato main  h2{
+        display: block;
+        font-size: 2em;
+        text-align: center;
+        position:fixed;
+        top: 330px;
+        color: rgb(255, 255, 255);
+        margin:auto;
         
+    
     }
 
 
