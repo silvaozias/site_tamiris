@@ -13,6 +13,7 @@
     --cor3: #736372;
     --cor4: #FFC857;
     --cor5: #0bb8aa;
+    --cor6: #efa2af7a;
 
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
     --fonte-destaque: "Dancing Script", cursive;
@@ -83,8 +84,8 @@ body#contato {
 
 header {
     position: relative;
-    background-color: #17a39755;
-    height: 280px;
+    background-color: #17a3975d;
+    height: 240px;
     width: 100vw;
 
 
@@ -148,6 +149,7 @@ nav>menu>ul>li {
 
 nav>menu>ul>li:hover {
     background-color: #efa2afd7;
+    
 }
 
 nav>menu>ul>li>a {
@@ -190,7 +192,7 @@ main>section#sobre {
     transform: translate(-50%, -50%);
 
     display: block;
-    background-color: #7363725a;
+    background-color: var(--cor6);
     color: white;
     width: 85%;
 
@@ -201,6 +203,17 @@ main>section#sobre {
 
 
 }
+
+main>section#sobre:hover {
+
+    background-color: var(--cor5);
+    transition: 0.7s;
+    transition: transform 0.5;
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.443);
+  
+    
+}
+
 
 main>section#sobre h1 {
     font-size: 1.4em;
@@ -214,28 +227,46 @@ main>section#sobre>p {
 
 }
 
-main#foto_atendimentos{
+main#foto_atendimento>main{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    
+
+
+}
+
+main#foto_atendimento>main>section{
+    align-items: flex-start;
+    position: fixed;
 
 }
 
 section.atendimentos {
-    display: inline-block;
-    margin-top: 7%;
-    margin-left: 8%;
+    display: block;
+    margin-top: 3%;
+   
 
-    background-color: rgba(255, 255, 255, 0.511);
-    color: var(--cor1);
+    background-color: var(--cor6);
+    color: white;
     border-radius: 15px;
     padding: 10px;
     width: 61vw;
+}
 
-
+section.atendimentos:hover{
+    background-color: var(--cor5);
 }
 
 section.atendimentos h1 {
-    font-size: 1.3em;
-
+    font-size: 1em;
 }
+
+section.atendimentos ul {
+    font-size: .75em;
+    
+}
+
 
 section.atendimentos>ul {
     list-style-position: inside;
@@ -262,11 +293,18 @@ section#depoimentos section#depoimentos1 {
     height: 30%;
     margin-top: 15px;
     margin-left: 8%;
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.443);
+}
+
+section#depoimentos section#depoimentos1:hover {
+  opacity: 80%;
+  transition: 0.4s;
+  box-shadow: none;
 }
 
 section#depoimentos section#depoimentos2 {
     display: inline-block;
-    background: white url('../imagens/comentario2.jpg');
+    background: rgb(255, 255, 255) url('../imagens/comentario2.jpg');
     border-radius: 20px;
     background-size: contain;
     background-position: center center;
@@ -274,7 +312,15 @@ section#depoimentos section#depoimentos2 {
     width: 85%;
     height: 26%;
     margin-top: 15px;
-    margin-left: 8%;
+    margin-left:8%;
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.443);
+}
+
+section#depoimentos section#depoimentos2:hover {
+    opacity: 80%;
+    transition: 0.4s;
+    box-shadow: none;
+    
 }
 
 section#depoimentos section#depoimentos3 {
@@ -288,8 +334,15 @@ section#depoimentos section#depoimentos3 {
     height: 31%;
     margin-top: 15px;
     margin-left: 8%;
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.443);
 }
 
+section#depoimentos section#depoimentos3:hover {
+    opacity: 80%;
+    transition: 0.4s;
+    box-shadow: none;
+   
+}
 
 
 main>section#contato{
@@ -328,7 +381,17 @@ main div.icone-social{
     margin-left: 5px;
     margin-right: 5px;
     margin-top: 10px;
+    border-radius: 50px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.316);
+  
     
+}
+
+main div.icone-social:hover{
+  
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.316);
+    transition: transform 0.5s, border 1s;
 }
 
 main>section#contato div#instagram {
@@ -378,11 +441,12 @@ div#whattsap {
 
 footer {
     display: block;
-    background-color: black;
+    background-color: #17a3975d;
     color: white;
     text-align: center;
     padding: 20px;
     width: 100%;
     margin: 0px;
+    position: sticky;
 
 }

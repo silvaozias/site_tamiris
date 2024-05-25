@@ -79,7 +79,6 @@
         position: fixed;
         width: 60vw;
         top: 65%;
-
         margin: auto;
 
     }
@@ -138,13 +137,25 @@
 
         width: 85%;
         height: 50vh;
+     
     }
 
     main#foto_atendimento main{
      
         position:absolute;
         top: 0px;
+       
     }
+
+    main#foto_atendimento h1{
+        font-size: 1.3em;
+    }
+
+    main#foto_atendimento ul{
+        font-size: .9em;
+    }
+
+
 
     section.atendimentos {
         display: block;
@@ -154,7 +165,8 @@
         margin-left: auto;
         margin-right: auto;
         font-size: 1.1em;
-        width: 45vw;
+        width: 36vw;
+               
         
     }
 
