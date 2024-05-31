@@ -58,7 +58,7 @@ body {
 
 main {
     position: relative;
-    width: 85%;
+    width: 90%;
     height: 100vh;
     background-color: #ffc75757;
     margin: auto;
@@ -264,9 +264,10 @@ section.atendimentos {
     background-color: var(--cor6);
     color: white;
     border-radius: 15px;
-    width: 61vw;
-    height: 28vh;
+    width: 70vw;
+    height: 31vh;
     padding: 15px;
+
 }
 section.atendimentos:hover {
     background-color: var(--cor5);
@@ -275,7 +276,7 @@ section.atendimentos:hover {
 }
 
 section.atendimentos h1 {
-    font-size: 1.3em;
+    font-size: 1.2em;
 }
 
 section.atendimentos ul {
