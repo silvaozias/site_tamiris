@@ -8,10 +8,18 @@ function clickMenu() {
 
 }
 
-function mudouTamanho(){
-    if (window.innerWidth >= 768){
+function mudouTamanho() {
+    if (window.innerWidth >= 768) {
         itens.style.display = 'block'
-    }else{
+    } else {
         itens.style.display = 'none'
+    }
+}
+
+function mudouTamanhoContato() {
+    if (window.innerWidth <= 768) {
+        form.style.display = 'none'
+    } else {
+        form.style.display = 'block'
     }
 }

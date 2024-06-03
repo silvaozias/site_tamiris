@@ -248,13 +248,13 @@ main#foto_atendimento>main {
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
 }
 
 main#foto_atendimento>main>section {
-    
+
     position: relative;
-   
+
 
 }
 
@@ -269,6 +269,7 @@ section.atendimentos {
     padding: 15px;
 
 }
+
 section.atendimentos:hover {
     background-color: var(--cor5);
     box-shadow: 1px 1px 6px 1px rgba(0, 0, 0, 0.308);
@@ -379,7 +380,7 @@ main>section#contato {
 
 
     position: fixed;
-    top: 55%;
+    top: 10%;
     left: 34%;
     right: 33%;
 
@@ -445,6 +446,68 @@ main>section#contato div#google {
 
 
 }
+
+main#foto_contato>main>div#form {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    position: fixed;
+    top: 215px;
+    left: 35vw;
+    right: 35vw;
+    width: 30vw;
+    height: 450px;
+    background-color: rgba(255, 0, 21, 0.16);
+
+    margin-right: auto;
+    border-radius: 15px;
+
+}
+
+main#foto_contato>main>div#form>form {
+    position: relative;
+    top: -45px;
+}
+
+main#foto_contato>main>div#form>form>p {
+    display: inline-block;
+    margin-left: 80px;
+    margin-right: 80px;
+    color: white;
+
+}
+
+main#foto_contato>main>div#form>form>p>input {
+    width: 300px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.511);
+    border: none;
+}
+
+main#foto_contato>main>div#form>form>p>input.botao {
+    display: inline-block;
+    width: 100px;
+    height: 35px;
+}
+
+
+main#foto_contato>main>div#form>form>p>input.botao:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+
+main#foto_contato>main>div#form>form>p>textarea {
+    width: 300px;
+    height: 120px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.511);
+    border: none;
+}
+
+
 
 /**todos**/
 

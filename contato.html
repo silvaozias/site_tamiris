@@ -12,7 +12,7 @@
     <script src="javascript/javascript.js"></script>
 </head>
 
-<body id="contato">
+<body id="contato" onresize="mudouTamanhoContato()">
     <header id="contato">
         <h1 id="h1_contato">Contato</h1>
 
@@ -33,8 +33,7 @@
     </header>
     <main id="foto_contato">
         <main>
-            <h2>Fale comigo:</h2>
-            
+
             <section id="contato">
 
                 <a href="https://www.instagram.com/fonotamirismessa/" target="blank">
@@ -42,23 +41,56 @@
                     </div>
                 </a>
 
-                
+
                 <a href="https://web.facebook.com/fonotamirismessa/?locale=pt_BR&_rdc=1&_rdr" target="_blank">
                     <div id="facebook" class="icone-social">
                     </div>
                 </a>
 
-                
+
                 <a href="https://www.linkedin.com/in/tamiris-barbosa-messa-597b64142/" target="_blank">
                     <div id="linkedin" class="icone-social">
                     </div>
                 </a>
-                
-                <a href="https://www.google.com/search?q=fono+tamiris+messa&sca_esv=9ec7993900a25091&sxsrf=ADLYWIJtERtf7ZFhiF9cdhwFRqssP9nlHQ%3A1716517602143&ei=4vpPZritCLHV1sQP2ee0kAs&udm=&ved=0ahUKEwi4prSvnqWGAxWxqpUCHdkzDbIQ4dUDCBA&uact=5&oq=fono+tamiris+messa&gs_lp=Egxnd3Mtd2l6LXNlcnAiEmZvbm8gdGFtaXJpcyBtZXNzYTIIEAAYgAQYogQyCBAAGIAEGKIEMggQABiABBiiBEilEVCuCFjnDXABeACQAQGYAekBoAH_B6oBBTAuMy4yuAEDyAEA-AEBmAIDoAKrA8ICCxAAGIAEGLADGKIEwgILEAAYsAMYogQYiQXCAggQABiiBBiJBZgDAIgGAZAGA5IHBTEuMS4xoAfsDQ&sclient=gws-wiz-serp#ip=1" target="_blank">
+
+                <a href="https://www.google.com/search?q=fono+tamiris+messa&sca_esv=9ec7993900a25091&sxsrf=ADLYWIJtERtf7ZFhiF9cdhwFRqssP9nlHQ%3A1716517602143&ei=4vpPZritCLHV1sQP2ee0kAs&udm=&ved=0ahUKEwi4prSvnqWGAxWxqpUCHdkzDbIQ4dUDCBA&uact=5&oq=fono+tamiris+messa&gs_lp=Egxnd3Mtd2l6LXNlcnAiEmZvbm8gdGFtaXJpcyBtZXNzYTIIEAAYgAQYogQyCBAAGIAEGKIEMggQABiABBiiBEilEVCuCFjnDXABeACQAQGYAekBoAH_B6oBBTAuMy4yuAEDyAEA-AEBmAIDoAKrA8ICCxAAGIAEGLADGKIEwgILEAAYsAMYogQYiQXCAggQABiiBBiJBZgDAIgGAZAGA5IHBTEuMS4xoAfsDQ&sclient=gws-wiz-serp#ip=1"
+                    target="_blank">
                     <div id="google" class="icone-social">
                     </div>
                 </a>
             </section>
+
+            <div id="form">
+                <FORM ACTION="https://form.ultramail.com.br/" METHOD="POST">
+                    <P>
+                        <!--
+                    Formulário do cliente.
+                    Especifique abaixo os campos que deseja enviar para e-mail.
+                    Caso o campo assunto não seja preenchido, o sistema irá enviar o e-mail com o assunto Formulário UltraMail
+                    -->
+                        Nome: <BR><INPUT TYPE="text" NAME="nome" SIZE="24"><BR>
+                        E-Mail: <BR><INPUT TYPE="text" NAME="email" SIZE="24"><BR>
+                        Assunto: <BR><INPUT TYPE="text" NAME="assunto" SIZE="24"><BR>
+                        Mensagem: <BR><TEXTAREA NAME="mensagem" ROWS="8" COLS="20"></TEXTAREA>
+
+                        <!--
+                    Chave de autenticação no UltraMail para o MailBox.
+                    Se a senha do MailBox for alterada esta chave deverá ser gerada novamente através do seu painel de controle.
+                    -->
+                        <INPUT TYPE="hidden" NAME="key"
+                            VALUE="eyJpdiI6InpLdk95Z0RtdDVWWDZxR2E2cVBvSlE9PSIsInZhbHVlIjoicGcrZ3kxbzM3WEQ2YTBFNmRCdlNienF5WHg4Y0pBWGducVF4bFdUR0o2M3UxSzJ1OUIyMGduUW1Yd0x2d201dlZ3bW0xVTFqQ09cL1ZpcEd1M0ozNXNJelBqdHl5R2VpYXFoaU92SFVoQSsrSXFXZDRQY296Uis2S2oraWNTbkwyNFRIdExFcGVaY3JLMkRDREtYRlR2RlNIeVhUNFFPWlFyVmZRSUlCTG9DMHo3ZmtwWFoycjdQVzFiczVabHFyWDg3bWNJM1k2Z1M4SmVJa0tFdHg2Q0E9PSIsIm1hYyI6IjYzYzk2MWFhZTJhNDk1ZTAxOTNkYWVlNjQ4ZWQ5ZjI3YjVkNzFhMzYyZGQ5ZDYxYjg4ZWUxZWQ2ZDMyMDlmMTEifQ==">
+
+                        <!--
+                    Pagina de conclusão do formulário de envio. Altere para a página desejada
+                    -->
+                        <INPUT TYPE="hidden" NAME="redirect" VALUE="https://tamirismessa.com.br/resposta.html">
+
+                        <INPUT TYPE="submit" VALUE="Enviar" class="botao">
+                    </P>
+                </FORM>
+            </div>
+
+
             <a href="https://wa.me/5527998232581?text=Oi%21+como+posso+lhe+ajudar%3F" target="_blank" rel="external">
                 <div id="whattsap">
                 </div>

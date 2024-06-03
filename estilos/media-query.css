@@ -249,6 +249,14 @@
 
     }
 
+    main#foto_contato>main>div#form{
+        display: block;
+        background-color: rgb(211, 77, 15);
+        margin: auto;
+        width: 100vw;
+
+    }
+
     /**todos**/
 
     div#whattsap {
