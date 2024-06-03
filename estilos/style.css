@@ -457,11 +457,15 @@ main#foto_contato>main>div#form {
     right: 35vw;
     width: 30vw;
     height: 450px;
-    background-color: rgba(255, 0, 21, 0.16);
-
+    background-color: var(--cor6);
     margin-right: auto;
     border-radius: 15px;
 
+}
+
+main#foto_contato>main>div#form:hover {
+    background-color: var(--cor5);
+    box-shadow: 1px 1px 6px 1px rgba(0, 0, 0, 0.308);
 }
 
 main#foto_contato>main>div#form>form {
