@@ -181,8 +181,8 @@
     
         position: fixed;
         top: 9%;
-      
-
+    }
+    
     main#foto_atendimento main {
 
         position: absolute;
@@ -222,6 +222,7 @@
         flex-direction: row;
         align-items: center;
         justify-content: center;
+
     }
 
     main>section#contato {
@@ -230,11 +231,13 @@
         align-items: center;
         justify-content: space-between;
         height: 20vh;
+        width: 420px;
+       
+    
 
         position: fixed;
-        left: 34%;
-        top: 360px;
-
+        top: 65px;
+        
     }
 
     body#contato main h2 {
@@ -250,11 +253,41 @@
     }
 
     main#foto_contato>main>div#form{
-        display: block;
-        background-color: rgb(211, 77, 15);
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        position: fixed;
+        top: 200px;
+     
+        width: 420px;
+        height: 400px;
+        background-color: var(--cor6);
         margin: auto;
-        width: 100vw;
+        border-radius: 15px;
+      
+    }
 
+    main#foto_contato>main>div#form>form>p>input{
+        width: 360px;
+        margin: auto;
+    }
+
+    main#foto_contato>main>div#form>form>p>textarea{
+        width: 360px ;
+    }
+
+    main#foto_contato>main>div#form>form{
+        
+        position: relative;
+        width: 420px;
+        height: 400px;
+
+        top: 15px;
+    }
+
+    main#foto_contato>main>div#form>form>p{
+        width: 20vw ;
+        margin-left: 30px;
     }
 
     /**todos**/
